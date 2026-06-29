@@ -1,11 +1,12 @@
-# Power BI Dashboards Portfolio
+## Power BI Dashboards Portfolio
 
-A collection of 2 interactive Power BI dashboards covering social media ad performance and financial transaction analysis. Each is a single-page report built with DAX measures, slicers, and Power BI's native visuals.
+A collection of 3 interactive Power BI dashboards covering social media ad performance, financial transaction analysis, and IPL cricket analytics. Each is a single-page report built with DAX measures, slicers, and Power BI's native visuals.
 
 | # | Dashboard | File | Domain |
 |---|-----------|------|--------|
 | 1 | [Meta Ad Performance Dashboard](#1-meta-ad-performance-dashboard) | `Facebook_and_Instagram_Analysis_Dashboard.pbix` | Social Media / Marketing Analytics |
 | 2 | [Finance Analysis Dashboard](#2-finance-analysis-dashboard) | `Financial_Analysis_Dashboard.pbix` | Finance / Transaction Analytics |
+| 3 | [IPL Analysis Dashboard](#3-ipl-analysis-dashboard) | `IPL_Analysis_Dashboard.pbix` | Sports Analytics |
 
 ---
 
@@ -68,6 +69,37 @@ Real-time view into financial transactions, customer segments, and risk indicato
 
 ---
 
+## 3. IPL Analysis Dashboard
+
+A season-by-season explorer of the Indian Premier League (2008–2025) — winners, top performers, and the points table, filterable by season.
+
+**Top cards**
+- Season Winner: Royal Challengers Bangalore
+- Runner-up: Punjab Kings
+- Season selector: 2025 (dropdown, 2008–2025)
+
+**KPI cards (for selected season)**
+- Total 6's: 1,296
+- Total 4's: 2,251
+- Total Matches: 73
+- Total Teams: 10
+- Centuries: 9
+- Half Centuries: 143
+- Total Venues: 14
+
+**Visuals**
+- **Orange Cap Stats** (player card) — B Sai Sudharsan, 759 runs, Gujarat Titans
+- **Purple Cap Stats** (player card) — M Prasidh Krishna, 25 wickets, Gujarat Titans
+- **Total 4's in a Season** (player card) — B Sai Sudharsan, 88 fours, Gujarat Titans
+- **Total 6's in a Season** (player card) — N Pooran, 40 sixes, Lucknow Super Giants
+- **Points Table** (ranked table) — Team, Matches, Won, Lost, Tie, and Total Points for all 10 teams, led by Punjab Kings and Royal Challengers Bangalore (19 points each), down to Rajasthan Royals and Chennai Super Kings (8 points each)
+
+**Slicer:** Season (2008–2025)
+
+**Key insight:** Gujarat Titans players swept 3 of the 4 individual award categories (Orange Cap, Purple Cap, Most 4's) in the 2025 season, while Punjab Kings and RCB tied for the top of the points table on net run rate / qualification criteria.
+
+---
+
 ## Tools used
 - Power BI Desktop
 - DAX (measures for rates, YoY comparisons, and dynamic metric switching)
@@ -78,6 +110,7 @@ Real-time view into financial transactions, customer segments, and risk indicato
 ```
 ├── Facebook_and_Instagram_Analysis_Dashboard.pbix
 ├── Financial_Analysis_Dashboard.pbix
+├── IPL_Analysis_Dashboard.pbix
 └── README.md
 ```
 
@@ -86,4 +119,3 @@ Real-time view into financial transactions, customer segments, and risk indicato
 2. Open the `.pbix` file in Power BI Desktop (free download from Microsoft).
 3. Use the slicers on each report page to filter by campaign, audience, year, segment, etc.
 4. Hover over any visual for tooltips with exact values.
-5. 
